@@ -1,0 +1,112 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+}
+
+/* HEADER */
+header {
+    background: #ff704d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* INTRO */
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+/* RECIPE CARDS */
+.recipes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #ff704d;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.card a:hover {
+    background: black;
+}
+
+/* RECIPE PAGE */
+.recipe {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+ul, ol {
+    text-align: left;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .recipes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
